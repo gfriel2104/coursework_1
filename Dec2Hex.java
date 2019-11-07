@@ -37,5 +37,10 @@ class Dec2Hex
 	{
 		System.out.println("Must enter a number");
 	}
+	    
+	    public int evaluate() 
+	    {
+		    return this.num;
+	    }
     }	
 }
