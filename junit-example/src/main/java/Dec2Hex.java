@@ -4,7 +4,7 @@ class Dec2Hex
 {
 
     public static int Arg1;
-
+	
     public static void main(String args[])
     {
         if (args.length > 0) 
@@ -38,4 +38,9 @@ class Dec2Hex
 		System.out.println("Must enter a number");
 	}
     }	
+	
+	public int evaluate()
+	{
+		return Integer.parseInt(args[0]);
+	}
 }
