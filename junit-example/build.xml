@@ -13,9 +13,8 @@
     <property name="lib.dir" value="lib" />
 
  <path id="junit.class.path">
-        <pathelement location="./lib" />
-        <pathelement location="./lib/hamcrest-core-1.3.jar"/>
-        <pathelement location="${build.dir}" />
+        <pathelement location="./lib/junit-4.12.jar" />
+
     </path>
 	
 	<echo message="${lib.dir}"></echo>
