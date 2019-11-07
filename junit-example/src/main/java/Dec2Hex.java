@@ -41,6 +41,6 @@ class Dec2Hex
 	
 	public int evaluate()
 	{
-		return Args1;
+		return Arg1;
 	}
 }
