@@ -25,7 +25,7 @@ class Dec2Hex
 	num = Arg1;
 	String hexadecimal=""; 
        
-    	if (num.toString().Length != null) 
+    	if (num = 0) 
 	{
 		System.out.println("Converting the Decimal Value " + num + " to Hex...");
         
