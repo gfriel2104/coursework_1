@@ -1,5 +1,5 @@
 <project name="coursework_1">
-  <property name="main.build.dir" value="build/main"/>
+  <property name="main.build.dir" value="build/main7980"/>
   <property name="main.src.dir" value="main2"/>
   <property name="test.build.dir" value="build/test"/>
   <property name="test.src.dir" value="main2"/>
