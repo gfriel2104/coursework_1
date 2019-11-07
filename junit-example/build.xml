@@ -43,7 +43,7 @@
 	    
         <junit printsummary="on" fork="true" haltonfailure="yes">
             <classpath refid="${lib.dir}">
-	    <path refid="classPath" />
+	    	<path refid="junit.class.path" />
 	    </classpath>
             <formatter type="xml" />
             <batchtest todir="${test.report.dir}">
