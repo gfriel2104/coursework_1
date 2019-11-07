@@ -39,7 +39,7 @@
     <!-- Output is XML, could also be plain-->
     <target name="junit" depends="compile">
         <junit printsummary="on" fork="true" haltonfailure="yes">
-            <classpath refid="junit.class.path" />
+            <classpath refid="junit-example/lib/junit-4.12.jar" />
             <formatter type="xml" />
             <batchtest todir="${test.report.dir}">
                 <fileset dir="${src.dir}">
