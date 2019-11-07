@@ -24,16 +24,19 @@ class Dec2Hex
          int rem, num;
 	num = Arg1;
 	String hexadecimal=""; 
-        System.out.println("Converting the Decimal Value " + num + " to Hex...");
         
-        while(num != 0)
-        {
-	    rem=num%16;
-	    hexadecimal= ch[rem] + hexadecimal;
-            num= num/16;
-        }
+	if (num != null) 
+	{
+		System.out.println("Converting the Decimal Value " + num + " to Hex...");
         
-        System.out.println("Hexadecimal representation is : " + hexadecimal);
+		while(num != 0)
+		{
+		    rem=num%16;
+		    hexadecimal= ch[rem] + hexadecimal;
+		    num= num/16;
+		}
 
+		System.out.println("Hexadecimal representation is : " + hexadecimal);
+	}
     }
 }
