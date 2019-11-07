@@ -43,7 +43,7 @@
     <!-- Output is XML, could also be plain-->
  <target name="junit" depends="compile">
     <junit printsummary="on" haltonfailure="yes" fork="true">
-        <classpath refid="junit.class.path">
+        <classpath refid="junit.class.path" />
         <formatter type="xml" />
             <batchtest todir="${test.report.dir}">
                 <fileset dir="${src.dir}">
