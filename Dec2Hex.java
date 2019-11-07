@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import static org.junit.Assert.*;
+import org.jnit.Test;
 
 class Dec2Hex
 {
@@ -32,11 +34,17 @@ class Dec2Hex
 		    num= num/16;
 		}
 
+		simpleTest(num);
 		System.out.println("Hexadecimal representation is : " + hexadecimal);
 	}
 	else
 	{
 		System.out.println("Must enter a number");
 	}
+	    
+	    @Test
+	    public void simpleTest(int num) {
+		    assertTrue(num < 200)
+	    }
     }	    
 }
