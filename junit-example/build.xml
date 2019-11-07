@@ -1,4 +1,4 @@
-<project name="junit-example">
+<project name="coursework_1">
   <property name="main.build.dir" value="build/main"/>
   <property name="main.src.dir" value="main2"/>
   <property name="test.build.dir" value="build/test"/>
