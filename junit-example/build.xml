@@ -12,11 +12,11 @@
 	
     <property name="lib.dir" value="lib" />
 
- <path id="junit.class.path">
+ <classpath id="junit.class.path">
         <pathelement location="lib/junit-4.12.jar" />
 	<pathelement location="lib/hamcrest-core-1.3.jar"/>
         <pathelement location="${build.dir}" />
-    </path>
+    </classpath>
 	
 	<echo message="${lib.dir}"></echo>
   
@@ -43,7 +43,7 @@
     <!-- Output is XML, could also be plain-->
  <target name="junit" depends="compile">
     <junit printsummary="on" haltonfailure="yes" fork="true">
-        <classpath refid="junit.class.path" location="lib/junit-4.12.jar" />
+        <classpath refid="junit.class.path" />
         <formatter type="xml" />
             <batchtest todir="${test.report.dir}">
                 <fileset dir="${src.dir}">
