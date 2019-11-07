@@ -44,7 +44,7 @@ class Dec2Hex
 	    
 	    @Test
 	    public void simpleTest(int num) {
-		    assertTrue(num < 200)
+		    assertTrue(num < 200);
 	    }
     }	    
 }
