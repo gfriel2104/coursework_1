@@ -37,5 +37,18 @@ class Dec2Hex
 	{
 		System.out.println("Must enter a number");
 	}
-    }	
+    }
+	
+    public int test(String args[])
+    {
+	    try 
+		{
+			Arg1 = Integer.parseInt(args[0]);
+		    	return Arg1;
+		} 
+		catch (NumberFormatException e) 
+		{
+			return 0;
+		}
+    }
 }
