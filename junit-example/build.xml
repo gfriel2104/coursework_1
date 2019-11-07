@@ -1,8 +1,8 @@
 <project name="junit-example">
   <property name="main.build.dir" value="build/main"/>
-  <property name="main.src.dir" value="main/Dec2Hex.java"/>
+  <property name="main.src.dir" value="main2"/>
   <property name="test.build.dir" value="build/test"/>
-  <property name="test.src.dir" value="main/Dec2HeaxTest.java"/>
+  <property name="test.src.dir" value="main2"/>
 
   <path id="classpath.test">
     <pathelement location="lib/junit-4.12.jar"/>
