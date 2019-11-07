@@ -13,8 +13,7 @@
     <property name="lib.dir" value="lib" />
 
  <path id="junit.class.path">
-        <pathelement location="./lib/junit-4.12.jar" />
-
+        <pathelement location="lib/junit-4.12.jar" />
     </path>
 	
 	<echo message="${lib.dir}"></echo>
