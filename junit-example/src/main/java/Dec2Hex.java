@@ -40,7 +40,8 @@ class Dec2Hex
 	    
 	    public int evaluate() 
 	    {
-		    return this.num;
+		    int num = Integer.parseInt(args[0]);
+		    return num;
 	    }
     }	
 }
