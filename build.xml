@@ -1,5 +1,6 @@
-<project name="Build" default="Build" basedir=".">
-   <target name="Build">
-       
+<project name="Hello World" default="Hello" basedir=".">
+   <property name="Hello Text" value="Hello"/>
+   <target name="Hello">
+       <echo>${HelloText}</echo>
    </target>
   </project> 
