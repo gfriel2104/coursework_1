@@ -41,10 +41,10 @@ class Dec2Hex
 	{
 		System.out.println("Must enter a number");
 	}
-	    
-	    @Test
+    }	
+	
+		    @Test
 	    public void simpleTest(int num) {
 		    assertTrue(num < 200);
 	    }
-    }	    
 }
