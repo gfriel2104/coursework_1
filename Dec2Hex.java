@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import static org.junit.Assert.*;
-import org.jnit.Test;
+import org.junit.Test;
 
 class Dec2Hex
 {
