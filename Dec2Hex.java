@@ -42,4 +42,5 @@ class Dec2Hex
 	{
 		System.out.println("Number cannot be empty");
 	}
+    }	    
 }
