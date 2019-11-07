@@ -43,7 +43,7 @@
     <!-- Output is XML, could also be plain-->
  <target name="junit" depends="compile">
     <junit printsummary="on" haltonfailure="yes" fork="true">
-        <classpath refid="junit.class.path"/>
+        <classpath refid="junit.class.path">
           <pathelement location="lib/junit-4.12.jar"/>
         </classpath>
         <formatter type="xml" />
