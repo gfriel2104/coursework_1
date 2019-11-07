@@ -2,7 +2,7 @@
   <property name="main.build.dir" value="build/main"/>
   <property name="main.src.dir" value="main/Dec2Hex.java"/>
   <property name="test.build.dir" value="build/test"/>
-  <property name="test.src.dir" value="main/Dec2HexTest.java"/>
+  <property name="test.src.dir" value="main/Dec2HeaxTest.java"/>
 
   <path id="classpath.test">
     <pathelement location="lib/junit-4.12.jar"/>
