@@ -1,1 +1,1 @@
-
+<property name="jmeter.save.saveservice.output_format" value="xml"/>
