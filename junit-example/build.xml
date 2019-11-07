@@ -18,7 +18,7 @@
         <pathelement location="${build.dir}" />
     </path>
 	
-	 <echo message="${lib.dir}">
+	<echo message="${lib.dir}"></echo>
   
   <!-- Deletes the existing build, docs and dist directory-->
     <target name="clean">
