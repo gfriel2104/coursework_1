@@ -41,8 +41,8 @@
     <!-- Output is XML, could also be plain-->
     <target name="junit" depends="compile">
 	    
-        <junit printsummary="on" fork="true" haltonfailure="yes">
-            <classpath refid="${lib.dir}">
+        <junit printsummary="off" fork="true" haltonfailure="no">
+            <classpath path="${lib.dir}">
 	    	<path refid="junit.class.path" />
 	    </classpath>
             <formatter type="xml" />
