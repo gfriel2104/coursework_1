@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Dec2Hex
 {
 
-    public int Arg1;
+    public static int Arg1;
 	
     public static void main(String args[])
     {
@@ -11,7 +11,7 @@ class Dec2Hex
         {
 		try 
 		{
-			this.Arg1 = Integer.parseInt(args[0]);
+			Arg1 = Integer.parseInt(args[0]);
 		} 
 		catch (NumberFormatException e) 
 		{
