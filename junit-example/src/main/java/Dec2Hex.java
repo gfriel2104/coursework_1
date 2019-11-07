@@ -11,7 +11,7 @@ class Dec2Hex
         {
 		try 
 		{
-			Arg1 = Integer.parseInt(args[0]);
+			this.Arg1 = Integer.parseInt(args[0]);
 		} 
 		catch (NumberFormatException e) 
 		{
@@ -41,6 +41,6 @@ class Dec2Hex
 	
 	public int evaluate()
 	{
-		return Integer.parseInt(args[0]);
+		return Args1;
 	}
 }
