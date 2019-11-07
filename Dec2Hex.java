@@ -25,8 +25,7 @@ class Dec2Hex
 	num = Arg1;
 	String hexadecimal=""; 
         
-	if (num != null) 
-	{
+
 		System.out.println("Converting the Decimal Value " + num + " to Hex...");
         
 		while(num != 0)
@@ -37,6 +36,5 @@ class Dec2Hex
 		}
 
 		System.out.println("Hexadecimal representation is : " + hexadecimal);
-	}
     }
 }
