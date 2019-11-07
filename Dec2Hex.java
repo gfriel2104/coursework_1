@@ -1,6 +1,4 @@
 import java.util.Scanner;
-//import static org.junit.Assert.*;
-//import org.junit.Test;
 
 class Dec2Hex
 {
@@ -42,9 +40,4 @@ class Dec2Hex
 		System.out.println("Must enter a number");
 	}
     }	
-	
-		/*    @Test
-	    public void simpleTest(int num) {
-		    assertTrue(num < 200);
-	    }*/
 }
