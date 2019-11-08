@@ -33,10 +33,10 @@ class Dec2Hex
 		}
 		System.out.println("Hexadecimal representation is : " + hexadecimal);
 	}
-	else
-	{
-		System.out.println("Must enter a number");
-	}
+	//else
+	//{
+//		System.out.println("Must enter a number");
+//	}
     }
 	
     public int test(String args[])
