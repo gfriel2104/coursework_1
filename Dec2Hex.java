@@ -35,7 +35,7 @@ class Dec2Hex
 	}
 	else
 	{
-		System.out.println("Must enter a number");/	
+		System.out.println("Must enter a number");	
 	}
     }
 }
